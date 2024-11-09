@@ -11,4 +11,12 @@ package tarea.tarea1diseno;
 public class AtencionCliente {
     private int idAtncionCliente;
     private String nombreEmpleado;
+    
+    public boolean resolverIncidente(){
+        return true;
+    }
+    
+    public boolean escalarIncidente(){
+        return true;
+    }
 }

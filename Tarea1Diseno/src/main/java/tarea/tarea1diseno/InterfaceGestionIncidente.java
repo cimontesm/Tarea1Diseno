@@ -9,5 +9,6 @@ package tarea.tarea1diseno;
  * @author Home
  */
 public interface InterfaceGestionIncidente {
-    
+    public boolean reportarIncidente();
+    public boolean actualizarEstado();
 }

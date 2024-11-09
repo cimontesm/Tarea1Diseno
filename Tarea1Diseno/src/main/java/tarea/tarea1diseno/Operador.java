@@ -12,4 +12,8 @@ public class Operador {
     private int idOperador;
     private String nombreOperador;
     
+    public boolean gestionarIncidente(){
+        return true;
+    }
+    
 }
