@@ -9,6 +9,7 @@ package tarea.tarea1diseno;
  * @author CMONTES
  */
 public class Usuario {
+
     private int id;
     private String nombre;
     private String email;
@@ -52,19 +53,19 @@ public class Usuario {
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
-    
-    public boolean iniciarSesion(){
+
+    public boolean iniciarSesion() {
         //logica
         return true;
     }
-    
-    public boolean cerrarSesion(){
+
+    public void cerrarSesion() {
         //logica
-        return false;
+
     }
-    
-    public void registrarse(){
-        
+
+    public void registrarse() {
+
     }
-    
+
 }
