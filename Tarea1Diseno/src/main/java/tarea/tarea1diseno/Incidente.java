@@ -8,10 +8,22 @@ package tarea.tarea1diseno;
  *
  * @author CMONTES
  */
-public class Incidente /*implements InterfaceGestionCliente*/{
+public class Incidente implements InterfaceGestionIncidente{
     
     private int incidente;
     private String descripcion;
     private String estado;
+    
+     @Override
+    public boolean reportarIncidente() { 
+        return true;
+    }
+
+    @Override
+    public boolean actualizarEstado() {
+        return true; 
+    }
+    
+
     
 }
