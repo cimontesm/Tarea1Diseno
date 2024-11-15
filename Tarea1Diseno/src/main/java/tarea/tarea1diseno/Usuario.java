@@ -12,14 +12,11 @@ public class Usuario {
 
     private int id;
     private String nombre;
-    private String email;
-    private String contrasena;
 
-    public Usuario(int id, String nombre, String email, String contrasena) {
+    public Usuario(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.email = email;
-        this.contrasena = contrasena;
+
     }
 
     public int getId() {
@@ -38,34 +35,9 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getContrasena() {
-        return contrasena;
-    }
-
-    public void setContrasena(String contrasena) {
-        this.contrasena = contrasena;
-    }
-
-    public boolean iniciarSesion() {
+    public boolean autenticarUsuario() {
         //logica
         return true;
-    }
-
-    public void cerrarSesion() {
-        //logica
-
-    }
-
-    public void registrarse() {
-
     }
 
 }

@@ -9,15 +9,18 @@ package tarea.tarea1diseno;
  * @author Thomas Burgos
  */
 public class Cabina {
+
     int idCabina;
     String tipo;
     String estado;
     double precio;
-    public boolean reservarCabina(){
+
+    public boolean reservarCabina() {
         //metodo para reservar Cabina
         return true;
     }
-    public void liberarCabina(){
+
+    public void liberarCabina() {
         //metodo para liberar Cabina
     }
 }

@@ -8,12 +8,25 @@ package tarea.tarea1diseno;
  *
  * @author CMONTES
  */
-public class Operador {
-    private int idOperador;
-    private String nombreOperador;
+public class Operador extends Usuario implements Notificable{
+
     
-    public boolean gestionarIncidente(){
+    private String nombreOperador;
+
+    public Operador(String nombreOperador, int id, String nombre) {
+        super(id, nombre);
+        
+        this.nombreOperador = nombreOperador;
+    }
+
+    public boolean gestionarIncidente() {
+        //logica
         return true;
     }
-    
+
+    @Override
+    public String notificarUsuario() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 }

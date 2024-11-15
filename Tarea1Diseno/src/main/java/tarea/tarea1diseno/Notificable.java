@@ -12,6 +12,4 @@ public interface Notificable {
 
     public String notificarUsuario();
 
-    public boolean actualizarEstadoIncidente();
-
 }
